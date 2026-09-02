@@ -19,15 +19,34 @@ const bigNumber = 12233445543455n
 // Refference (non premitive)
 
 // Array , object, Function
-const hero = ["Kabir Sahed" ,"Acharya prashant"]
+// const hero = ["Kabir Sahed" ,"Acharya prashant"]  *** Array
 
-let myobj ={
+// let myobj ={                              *****Object
 name: "Bittu",
 age : 29,
 }
 
-const myfunction =function(){
+// const myfunction =function(){        ****** Function
 console.log("Hello world");
 }
 
 console.log(typeof myfunction);
+
+// stack(premitive) , heap(non premitive)
+
+let myyoutube = ("alok@12");
+let anotheryoutube = myyoutube
+   anotheryoutube = "bitu*12"
+
+console.log(anotheryoutube);
+console.log(anotheryoutube);
+
+let userOne={
+Email: "yadav@12",
+upi: "ybl",
+}
+let userTwo = userOne;
+userTwo.Email = "singh@12"
+console.log(userOne.Email);
+console.log(userTwo.Email);
+
