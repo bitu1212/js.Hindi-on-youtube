@@ -1,4 +1,4 @@
-//Objects*******
+//Objects******* singalton object
 // objects me jo varriable declear kara jata wo hidden string me hota hai
 
 
